@@ -16,11 +16,9 @@ class RallyTopAppBarTest {
 
     @Test
     fun rallyTopAppBarTest_currentTabSelected() {
-        val allScreens = RallyScreen.entries
-
         composeTestRule.setContent {
             RallyTopAppBar(
-                allScreens = allScreens,
+                allScreens = RallyScreen.entries,
                 onTabSelected = {},
                 currentScreen = RallyScreen.Accounts,
             )
@@ -33,11 +31,9 @@ class RallyTopAppBarTest {
 
     @Test
     fun rallyTopAppBarTest_currentLabelExists() {
-        val allScreens = RallyScreen.entries
-
         composeTestRule.setContent {
             RallyTopAppBar(
-                allScreens = allScreens,
+                allScreens = RallyScreen.entries,
                 onTabSelected = {},
                 currentScreen = RallyScreen.Accounts,
             )
