@@ -10,7 +10,7 @@ import com.example.compose.rally.ui.components.RallyTopAppBar
 import org.junit.Rule
 import org.junit.Test
 
-class TopAppBarTest {
+class RallyTopAppBarTest {
     @get:Rule
     val composeTestRule = createComposeRule()
 

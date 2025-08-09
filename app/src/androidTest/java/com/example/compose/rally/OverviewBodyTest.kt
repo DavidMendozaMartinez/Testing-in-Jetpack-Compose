@@ -7,13 +7,12 @@ import com.example.compose.rally.ui.overview.OverviewBody
 import org.junit.Rule
 import org.junit.Test
 
-class OverviewScreenTest {
-
+class OverviewBodyTest {
     @get:Rule
     val composeTestRule = createComposeRule()
 
     @Test
-    fun overviewScreen_alertsDisplayed() {
+    fun overviewBody_alertsDisplayed() {
         composeTestRule.setContent {
             OverviewBody()
         }
